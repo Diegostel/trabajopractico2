@@ -16,4 +16,7 @@ def NDJ(datos):
             fichas -= 1
             #print("apuesto y pierdo")
             #print(intentos, fichas)
-            return intentos, fichas
+    return intentos, fichas
+
+resultado = NDJ(datos)
+print(f"intentos: {resultado[0]}\n Fichas restantes: {resultado[1]}")
